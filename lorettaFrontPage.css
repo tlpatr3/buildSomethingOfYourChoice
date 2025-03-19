@@ -17,6 +17,12 @@ body {
     background-color: #509e59;
 }
 
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+}
+
 /* Utility classes */
 .container {
     width: 90%;
