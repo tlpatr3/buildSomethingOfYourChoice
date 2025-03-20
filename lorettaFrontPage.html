@@ -12,30 +12,30 @@
     </header>
     <main>
         <p>This website is a collection of newspaper articles from the Irvine, Kentucky, area regarding the death of Loretta Lynn Willoughby. </p>
-        <p>Please note that this website is a work in progress. It is intended to inform the public about the case of Loretta Willoughby in Irvine, Kentucky.
+        <p>Please note that this website is a work in progress. It is intended to inform the public about the case of Loretta Willoughby in Irvine, Kentucky.</p>
 
-            If you have any information about this case, please contact the Kentucky State Police Post 7 in Richmond, Kentucky, at 859-623-2404.</p>
-            <h2>Have a tip for us about the case? Fill out the form below!</h2>
+            <h2><strong>If you have any information about this case, please contact the Kentucky State Police Post 7 in Richmond, Kentucky, at 859-623-2404.</strong></h2>
 
-            <h2>
-            <form id = "tipBox">
-            <!--name information-->
-                <label for="name">Name:</label>
-                <input type="name" required>
-            <!--email information-->
-                <label for="email">Email address</address></label>
-                <input type="email" required>
-            <!--phone number information-->
-                <label for="phone">Phone number:</label>
-               <input type="tel" required>
-            <!--tip information-->
-                <label for="tip">Tip:</label>
-                <textarea id="tip" name="tip" rows="4" cols="50" required></textarea>
-            <!--submit button-->
-                <input type="submit" value="Submit">
-            </form>
-            </h2>
-            
+            <div class="form-container">
+                <h2>Have a tip for the website creators?</h2>
+                <p>Fill out the form below.</p>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                    
+                    <label for="tip">Your Tip:</label>
+                    <textarea id="tip" name="tip" rows="4" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
         </main>
     <footer>
         <p>&copy; 2025 </p>
